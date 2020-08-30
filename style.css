@@ -1,0 +1,149 @@
+/*----------------Full webpage-----------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left, #424242  ,#212121);
+}
+h2, h1 , p{
+    color: #fff;
+}
+
+h2::after{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;}
+
+/*------------------------Navbar-----------------------------*/
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+ 
+.navbar{
+    background-image: linear-gradient(to left, #424242  ,#212121);
+}
+
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    font-weight: 600;
+    color: #fff !important ;
+}
+
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a:hover{
+    color: black !important;
+}
+/*------------------------Home-----------------------------*/
+.carousel-item img {
+    height: 80%;
+}
+
+/*------------------------About us-----------------------------*/
+#about{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*---------Promo-----------*/
+#promo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+
+/*------------------------Products-----------------------------*/
+#product{
+    padding: 20px 50px;
+}
+.card-text{
+    color: #212121;
+}
+
+#product #col-md-4{
+    display: inline-block;
+    padding: 25px 70px !important;
+    margin-left: 30px;
+}
+
+#product .card:hover{
+    box-shadow: 0 2px 20px #000;
+    transform: translateY(-10px);
+}
+
+#product .btn:hover{
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+    box-shadow: 0 2px 20px #000;
+    transform: translateY(-10px);
+}
+
+
+/*-----------------------Get In Touch------------------------*/
+#contact{
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none!important;
+}
+::placeholder{
+    color: #999!important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.contact-info .fa{
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/*---------footer--------*/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
+.fa-copyright{
+    margin: 3px;
+    color: #fff;
+}
